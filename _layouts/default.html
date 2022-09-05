@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>{{ site.name }} - {% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <script src="https://cdn.tailwindcss.com"></script> 
+  
+  <meta property="og:title" content="{{ site.name }} - {% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description" content="{{ page.info }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta name="theme-color" content="#3b82f6">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
