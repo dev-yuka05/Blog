@@ -1,0 +1,29 @@
+
+# Basic
+name:               "MinjunLee"
+
+# URL
+baseurl:            "https://dev-yuka05.github.io/Blog/"
+#baseurl:            "" #For Root Domain
+permalink:          /:title
+
+# Markdown
+markdown:           rdiscount
+
+css:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
