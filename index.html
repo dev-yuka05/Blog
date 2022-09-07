@@ -26,7 +26,7 @@ layout: default
             <div class="px-5 py-9 bg-white rounded-t-xl">
                 <p class="block mb-3 md:mb-5 text-xl font-medium h-20 max-h-20 text-gray-600 text-ellipsis overflow-hidden">{{ post.title }}</p>
                 <p class="text-sm text-gray-400 font-medium h-24 max-h-24 text-ellipsis overflow-hidden break-all">{{ post.info }}</p>
-                <div class="flex gap-4 mt-4">
+                <div class="flex gap-2 mt-4">
                     {% for tag in post.tags %}
                         <a href="{{ site.baseurl }}/tags/{{ tag }}" class="inline-block text-sm md:text-xs text-gray-400 hover:text-gray-500 font-medium bg-slate-100 hover:bg-slate-200 px-3 py-1 rounded-lg duration-300">{{ tag }}</a>
                     {% endfor %}
