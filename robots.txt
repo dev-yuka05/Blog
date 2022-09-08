@@ -1,6 +1,4 @@
 User-agent: *
-
-User-agent: *
 Allow: /
 
 Sitemap: {{ site.baseurl }}/sitemap.xml
