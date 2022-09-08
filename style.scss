@@ -67,3 +67,46 @@
     list-style: inside;
     list-style-position: outside;
 }
+
+..docs div.highlighter-rouge{
+    padding: 10px 15px;
+    background-color: #050822;
+    color: rgb(248, 248, 248);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    overflow-x: scroll;
+}
+
+.docs div.language-ex::before{
+    content: "Example";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
+
+.docs div.language-html::before{
+    content: "HTML";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
+
+.docs div.language-js::before{
+    content: "JS";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
+
+.docs div.language-python::before{
+    content: "python";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
