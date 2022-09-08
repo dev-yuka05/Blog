@@ -1,9 +1,6 @@
-{% raw %}
-  {% assign words = content | number_of_words %}
-  {% if words < 360 %}
-    1 분
-  {% else %}
-    {{ words | divided_by:180 }} 분
-  {% endif %}
-
-{% endraw %}
+{% capture words %}
+{{ content | number_of_words | minus: 180 }}
+{% endcapture %}
+{% unless words contains '-' %}
+{{ words | plus: 180 | divided_by: 180 | append: ' 분' }}
+{% endunless %}
