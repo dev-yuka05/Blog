@@ -5,7 +5,10 @@
 }
 
 .docs{
-    color: rgb(107, 114, 128);
+    color: rgb(107 114 128);
+    line-height: 1.7;
+    letter-spacing: -0.004em;
+    word-break: keep-all;
 }
 
 .docs h1{
@@ -48,4 +51,17 @@
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+.docs a{
+    color: rgb(59, 130, 246);
+}
+
+.docs a:hover{
+    text-decoration: underline;
+}
+
+.docs ul{
+    list-style: inside;
+    list-style-position: outside;
 }
