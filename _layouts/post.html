@@ -22,9 +22,9 @@ layout: default
         <a href="{{ site.baseurl }}/tags/{{ tag | downcase | remove: "." }}" class="inline-block text-sm md:text-xs text-gray-400 hover:text-gray-500 font-medium bg-slate-100 hover:bg-slate-200 px-3 py-1 rounded-lg duration-300 mr-2">{{ tag }}</a>
         {% endfor %}
     </div>
-    <div class="docs mt-20 mb-16">
+    <div class="docs mt-20 mb-28">
         {{ content }}
         
-        <p>Portions of the content are owned by {{ site.name }}. © 2022 {{ site.name }}</p>
+        <p class="mt-8" style="font-size: 12px;">Portions of the content are owned by {{ site.name }}. © 2022 {{ site.name }}</p>
     </div>
 </div>
