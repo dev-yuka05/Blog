@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: tags
 title: a
 info : a test
 ---
