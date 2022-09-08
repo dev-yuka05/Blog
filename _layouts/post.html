@@ -2,7 +2,11 @@
 layout: default
 ---
 <div class="fixed z-50 top-0 left-0 right-0 max-w-full w-full px-5 md:px-32 border-b-2 md:border-none border-solid border-gray-200 md:drop-shadow-md bg-white flex justify-between items-center">
-    <a href="{{ site.baseurl }}" class="text-lg font-medium text-gray-900 py-3">{{ site.name }}</a>
+    <div>
+        <a href="{{ site.baseurl }}" class="text-lg font-medium text-gray-900 py-3">{{ site.name }}</a>
+        <span class="font-medium text-gray-600"> - {{ page.title }}</span>
+    </div>
+    
     <div class="md:hidden">
         <a href="{{ site.baseurl }}/more">더보기</a>
     </div>
