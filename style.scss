@@ -111,6 +111,15 @@
     color: rgb(155, 174, 187);
 }
 
+.docs div.highlighter-rouge div pre code{
+    font-size: 13px;
+    color: #f4f4f5;
+}
+
+.docs div.highlighter-rouge div pre code .k{
+    color: #2563eb;
+}
+
 .docs div.highlighter-rouge div pre code .n{
     color: rgb(66, 179, 254);
 }
