@@ -4,8 +4,7 @@ name:               "MinjunLee"
 
 # URL
 baseurl:            "https://dev-yuka05.github.io/Blog"
-#baseurl:            "" #For Root Domain
-permalink:          /:title
+permalink:          /:categories/:title
 
 # Markdown
 markdown:           rdiscount
