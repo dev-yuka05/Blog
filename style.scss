@@ -68,7 +68,7 @@
     list-style-position: outside;
 }
 
-..docs div.highlighter-rouge{
+.docs div.highlighter-rouge{
     padding: 10px 15px;
     background-color: #050822;
     color: rgb(248, 248, 248);
@@ -109,4 +109,12 @@
     font-size: 12px;
     font-weight: bold;
     color: rgb(155, 174, 187);
+}
+
+.docs div.highlighter-rouge div pre code .n{
+    color: rgb(66, 179, 254);
+}
+
+.docs div.highlighter-rouge div pre code .nv{
+    color: rgb(194, 126, 101);
 }
