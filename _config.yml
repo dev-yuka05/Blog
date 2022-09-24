@@ -1,9 +1,9 @@
 
 # Basic
-name:               "Cobblestone"
+name:               "kincent"
 
 # URL
-baseurl:            "https://dev-yuka05.github.io/Blog"
+baseurl:            "https://kincent.tech"
 permalink:          /:categories/:title
 
 # Markdown
