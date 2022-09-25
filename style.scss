@@ -4,6 +4,57 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+    display: inline-block;
+}
+
+.navs-background{
+    z-index: 999;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.typography-title{
+    position: relative;
+    font-size: 48px;
+    font-weight: 900;
+    z-index: 1;
+    transform: translate3d(-12px, 48px, -271px) rotateY(30deg) rotate(10deg) skewX(13deg) scale(1.6);
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 35px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.typography-title strong{
+    padding-bottom: 0 !important;
+    margin-bottom: -0.18em !important;
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(315deg,#42d392 25%,#647eff);
+    will-change: transform;
+    padding-top: 0.5px;
+    overflow: hidden;
+}
+
+.typography-subtitle{
+    position: relative;
+    font-size: 20px;
+    font-weight: 900;
+    z-index: 1;
+    transform: translate3d(-12px, 48px, -271px) rotateY(30deg) rotate(10deg) skewX(13deg) scale(1.6);
+    color: #ddd;
+    display: inline-block;
+    margin-bottom: 45px;
+    text-align: center;
+    overflow: hidden;
+}
+
 .docs{
     color: rgb(107, 114, 128);
     line-height: 1.7;
